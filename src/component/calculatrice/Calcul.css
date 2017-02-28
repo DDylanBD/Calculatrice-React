@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultat {
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.inputResultat {
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.containerCalculatrice {
+    height: 70%;
+    width: 40%;
+}
+
+.containerButton {
+    height: 80%;
+    width: 100%;
+    display: flex;
+        border: 1px solid;
+}
+
+.containerNumber {
+    height: 100%;
+    width: 90%;
+}
+.contButtonNumber {
+  height: 25%;
+}
+.containerSymbole {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerSymbole2 {
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
